@@ -88,7 +88,7 @@ fun RegistrationBody() {
         Spacer(modifier = Modifier.height(20.dp))
 
         Image(
-            painter = painterResource(id = R.drawable.student),
+            painter = painterResource(id = R.drawable.edutrack),
             contentDescription = null,
             modifier = Modifier.height(150.dp)
         )
