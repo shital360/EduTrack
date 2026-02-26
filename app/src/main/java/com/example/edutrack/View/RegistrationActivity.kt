@@ -31,7 +31,6 @@ import com.example.edutrack.model.UserModel
 import com.example.edutrack.repository.UserRepoImpl
 import com.example.edutrack.viewmodel.UserViewModel
 
-
 class RegistrationActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -60,12 +59,12 @@ fun RegistrationBody() {
     val PrimaryBlue = Color(0xFF64B5F6)
     val SecondaryBlue = Color(0xFF90CAF9)
     val AccentBlue = Color(0xFF42A5F5)
-    val Cream = Color(0xFFFFF8E1)
+    val BackgroundColor = Color.White // changed to white
 
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Cream)
+            .background(BackgroundColor) // apply white background
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -185,7 +184,6 @@ fun EduPassword(
     value: String,
     visible: Boolean,
     onToggle: () -> Unit,
-
     onValueChange: (String) -> Unit
 ) {
     OutlinedTextField(

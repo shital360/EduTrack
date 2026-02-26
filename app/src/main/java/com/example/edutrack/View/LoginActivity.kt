@@ -48,12 +48,12 @@ fun LoginBody() {
 
     val PrimaryBlue = Color(0xFF64B5F6)
     val AccentBlue = Color(0xFF42A5F5)
-    val Cream = Color(0xFFFFF8E1)
+    val BackgroundColor = Color.White // Changed to white
 
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Cream)
+            .background(BackgroundColor) // Apply white background
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
