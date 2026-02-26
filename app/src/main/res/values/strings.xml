@@ -5,4 +5,12 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_item.kt">ActivityItem.kt</string>
+    <string name="title_activity_student_dashboard_activity.kt">StudentDashboardActivity.kt</string>
+    <string name="title_activity_student_home_activity.kt">StudentHomeActivity.kt</string>
+    <string name="title_activity_admin_dashboard_activity.kt">AdminDashboardActivity.kt</string>
+    <string name="title_activity_attendance_screen_activity.kt">AttendanceScreenActivity.kt</string>
+    <string name="title_activity_attendance_screen.kt">AttendanceScreen.kt</string>
+    <string name="title_activity_attendance_screen">AttendanceScreen</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
 </resources>

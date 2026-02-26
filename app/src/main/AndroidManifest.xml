@@ -11,7 +11,72 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EduTrack">
+        <activity
+            android:name=".View.AttendanceScreen"
+            android:exported="true"
+            android:label="@string/title_activity_attendance_screen"
+            android:theme="@style/Theme.EduTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.HomeScreen"
+            android:exported="true"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/Theme.EduTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.AttendanceScreen.kt"
+            android:exported="true"
+            android:label="@string/title_activity_attendance_screen.kt"
+            android:theme="@style/Theme.EduTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.AttendanceScreenActivity.kt"
+            android:exported="true"
+            android:label="@string/title_activity_attendance_screen_activity.kt"
+            android:theme="@style/Theme.EduTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.StudentDashboardActivity.kt"
+            android:exported="true"
+            android:label="@string/title_activity_student_dashboard_activity.kt"
+            android:theme="@style/Theme.EduTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.AdminDashboardActivity.kt"
+            android:exported="true"
+            android:label="@string/title_activity_admin_dashboard_activity.kt"
+            android:theme="@style/Theme.EduTrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".View.DashboardActivity"
             android:exported="true"
@@ -55,9 +120,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
-
         </activity>
         <activity
             android:name=".View.RegistrationActivity"
@@ -69,7 +131,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
